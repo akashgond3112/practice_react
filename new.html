@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akash Gondi | Software Engineer</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="social-icons">
+      <a href="#" aria-label="LinkedIn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle>
+        </svg>
+      </a>
+      <a href="#" aria-label="GitHub">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+          </path>
+        </svg>
+      </a>
+    </div>
+
+    <button class="contact-button">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+        <polyline points="22,6 12,13 2,6"></polyline>
+      </svg>
+      GET IN TOUCH
+    </button>
+  </header>
+
+  <!-- Main/Home Section -->
+  <section id="home" class="section">
+    <div class="circles">
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+      <div class="circle"></div>
+
+      <!-- Gradient rings between circles -->
+      <!-- Gradient rings with skill tooltips -->
+      <div class="gradient-ring ring-1" data-skill="Foundational Skills: Programming, Git, Clean Code"></div>
+      <div class="gradient-ring ring-2" data-skill="Intermediate Skills: Frameworks, CI/CD, Testing"></div>
+      <div class="gradient-ring ring-3" data-skill="Advanced Skills: System Design, DevOps, Leadership"></div>
+    </div>
+
+    <div class="container">
+      <div class="profile-section">
+        <div class="profile-image">
+          <img src="images/avatar.JPG" alt="Akash Gond" />
+        </div>
+          <div class="title">SOFTWARE ENGINEER</div>
+          <h1 class="name">AKASH GOND</h1>
+      </div>
+
+      <div class="navigation">
+          <a href="#experience" class="nav-item active">EXPERIENCE</a>
+          <a href="#skills" class="nav-item">SKILLS</a>
+          <a href="#projects" class="nav-item">PROJECTS</a>
+          <a href="#about" class="nav-item">ABOUT</a>
+        </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="pattern-decoration">
+      <!-- Generate 5x5 grid of dots -->
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+      <div class="pattern-dot"></div>
+    </div>
+
+    <div class="container">
+      <h2 class="experience-title">Work Experience</h2>
+      <div class="experience-cards">
+        <div class="experience-card" onclick="toggleActive(this)">
+          <h3 class="job-title">Senior Software Engineer - III</h3>
+          <h4 class="company-name">Open Bet (Endeavour Entertainment)</h4>
+          <div class="job-date">MAY 2020 - PRESENT</div>
+          <div class="job-description">
+            <ul>
+              <li>
+                Designed and maintained a critical microservices-based architecture comprising Content 
+                API Service, Site Server, Feed Handler, and Admin Service.
+              </li>
+              <li>
+                Implemented Kafka for processing betting events and market updates across microservices, 
+                reducing data synchronization delays by 40%.
+              </li>
+              <li>
+                Upgraded Site Server and Content API to Java 17, enhancing system performance 
+                and maintainability.
+              </li>
+              <li>
+                Reduced P1 and P2 defects by 30%, stabilizing the platform and improving user experience.
+              </li>
+              <li>
+                Managed containerized applications using Amazon ECS and EKS for orchestration of microservices.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-card inactive" onclick="toggleActive(this)">
+          <h3 class="job-title">Software Engineer</h3>
+          <h4 class="company-name">Lrnr Global Infotech</h4>
+          <div class="job-date">MAY 2017 - APRIL 2020</div>
+          <div class="job-description">
+            <ul>
+              <li>
+                Built full-stack features using Java, Spring Boot, React, and MongoDB.
+              </li>
+              <li>
+                Led the development of My Question Bank, a microservice enabling instructors to create, 
+                validate, and manage questions linked to chapters, sections, and sub-sections.
+              </li>
+              <li>
+                Designed the system to handle unstructured data using MongoDB and introduced structured 
+                validation workflows via AWS Lambda Functions.
+              </li>
+              <li>
+                Implemented performance testing with JMeter to ensure the scalability of the application 
+                and efficient Lambda execution.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-indicators">
+        <!-- Dots will be dynamically generated by JavaScript based on the number of experience cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="skills-title">Skills</h2>
+      <div class="skills-content">
+        <!-- Left side: Clustered skill icons -->
+        <div class="skills-icons-cluster">
+          <div class="skill-icon active" data-skill="java">
+            <img src="images/icons8-java-48.png" alt="Java" />
+          </div>
+          <div class="skill-icon" data-skill="spring">
+            <img src="images/icons8-spring-boot-48.png" alt="Spring Boot" />
+          </div>
+          <div class="skill-icon" data-skill="react">
+            <img src="images/icons8-react-48.png" alt="React" />
+          </div>
+          <div class="skill-icon" data-skill="kafka">
+            <img src="images/icons8-apache-kafka-64.png" alt="Kafka" />
+          </div>
+          <div class="skill-icon" data-skill="docker">
+            <img src="images/icons8-docker-48.png" alt="Docker" />
+          </div>
+          <div class="skill-icon" data-skill="kubernetes">
+            <img src="images/icons8-kubernetes-48.png" alt="Kubernetes" />
+          </div>
+          <div class="skill-icon" data-skill="aws">
+            <img src="images/icons8-aws-48.png" alt="AWS" />
+          </div>
+          <div class="skill-icon" data-skill="mongodb">
+            <img src="images/icons8-mongodb-48.png" alt="MongoDB" />
+          </div>
+          <div class="skill-icon" data-skill="mysql">
+            <img src="images/icons8-mysql-48.png" alt="MySQL" />
+          </div>
+          <div class="skill-icon" data-skill="python">
+            <img src="images/icons8-python-48.png" alt="Python" />
+          </div>
+          <div class="skill-icon" data-skill="grafana">
+            <img src="images/icons8-grafana-48.png" alt="Grafana" />
+          </div>
+          <div class="skill-icon" data-skill="jenkins">
+            <img src="images/icons8-jenkins-48.png" alt="Jenkins" />
+          </div>
+          <div class="skill-icon" data-skill="testing">
+            <img src="images/icons8-testing-50.png" alt="Testing" />
+          </div>
+        </div>
+  
+        <!-- Right side: Skill details with progress bar -->
+        <div class="skill-details">
+          <div class="skill-detail active" data-skill="java">
+            <h3 class="skill-name">Java</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 90%"></div>
+              </div>
+              <span class="progress-percentage">90%</span>
+            </div>
+            <p class="skill-description">8+ years of experience in Java development including Java 8-17 features.</p>
+          </div>
+  
+          <div class="skill-detail" data-skill="spring">
+            <h3 class="skill-name">Spring Boot</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 85%"></div>
+              </div>
+              <span class="progress-percentage">85%</span>
+            </div>
+            <p class="skill-description">6+ years building microservices with Spring Boot and Spring Cloud.</p>
+          </div>
+  
+          <div class="skill-detail" data-skill="react">
+            <h3 class="skill-name">React</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <span class="progress-percentage">75%</span>
+            </div>
+            <p class="skill-description">3+ years developing interactive UIs with React and Redux.</p>
+          </div>
+  
+          <div class="skill-detail" data-skill="kafka">
+            <h3 class="skill-name">Kafka</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 80%"></div>
+              </div>
+              <span class="progress-percentage">80%</span>
+            </div>
+            <p class="skill-description">4+ years implementing event-driven architectures with Kafka.</p>
+          </div>
+  
+          <div class="skill-detail" data-skill="docker">
+            <h3 class="skill-name">Docker</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 80%"></div>
+              </div>
+              <span class="progress-percentage">80%</span>
+            </div>
+            <p class="skill-description">5+ years containerizing applications with Docker and Docker Compose.</p>
+          </div>
+  
+          <div class="skill-detail" data-skill="aws">
+            <h3 class="skill-name">AWS</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <span class="progress-percentage">75%</span>
+            </div>
+            <p class="skill-description">4+ years managing cloud infrastructure with ECS, EKS, Lambda, and more.</p>
+          </div>
+  
+          <div class="skill-detail" data-skill="mongodb">
+            <h3 class="skill-name">MongoDB</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 70%"></div>
+              </div>
+              <span class="progress-percentage">70%</span>
+            </div>
+            <p class="skill-description">3+ years working with unstructured data using MongoDB.</p>
+          </div>
+
+          <div class="skill-detail" data-skill="kubernetes">
+            <h3 class="skill-name">Kubernetes</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 75%"></div>
+              </div>
+              <span class="progress-percentage">75%</span>
+            </div>
+            <p class="skill-description">3+ years orchestrating containerized applications with Kubernetes on EKS.</p>
+          </div>
+
+          <div class="skill-detail" data-skill="mysql">
+            <h3 class="skill-name">MySQL</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 85%"></div>
+              </div>
+              <span class="progress-percentage">85%</span>
+            </div>
+            <p class="skill-description">7+ years designing and optimizing relational databases with MySQL.</p>
+          </div>
+
+          <div class="skill-detail" data-skill="python">
+            <h3 class="skill-name">Python</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 70%"></div>
+              </div>
+              <span class="progress-percentage">70%</span>
+            </div>
+            <p class="skill-description">3+ years using Python for automation, data processing, and scripting tasks.</p>
+          </div>
+
+          <div class="skill-detail" data-skill="grafana">
+            <h3 class="skill-name">Grafana</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 65%"></div>
+              </div>
+              <span class="progress-percentage">65%</span>
+            </div>
+            <p class="skill-description">2+ years creating observability dashboards with Grafana for monitoring and alerting.</p>
+          </div>
+
+          <div class="skill-detail" data-skill="jenkins">
+            <h3 class="skill-name">Jenkins</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 80%"></div>
+              </div>
+              <span class="progress-percentage">80%</span>
+            </div>
+            <p class="skill-description">4+ years implementing CI/CD pipelines with Jenkins for automated building, testing and deployment.</p>
+          </div>
+
+          <div class="skill-detail" data-skill="testing">
+            <h3 class="skill-name">Testing</h3>
+            <div class="skill-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 85%"></div>
+              </div>
+              <span class="progress-percentage">85%</span>
+            </div>
+            <p class="skill-description">5+ years practicing test-driven development with JUnit, Mockito, Jest, and other testing frameworks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-900 text-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-4xl font-bold mb-12 text-center">Projects</h2>
+  
+      <div class="relative">
+        <!-- Project Carousel -->
+        <div class="project-carousel">
+          <!-- Project 1 -->
+          <div class="project-card active">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl">
+              <div class="project-image h-64 bg-gray-700 flex items-center justify-center relative">
+                <img src="/api/placeholder/600/300" alt="Betting Platform Architecture"
+                  class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-800 opacity-70"></div>
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-3">Project Title</h3>
+                <p class="text-gray-300 mb-4">
+                  Capitalize on low hanging fruit to identify a ballpark value added activity to beta test
+                </p>
+                <div class="flex flex-wrap gap-2 mb-6">
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">Java</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">Spring Boot</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">Kafka</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">Microservices</span>
+                </div>
+                <div class="mt-4">
+                  <a href="#" class="inline-block bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded-full">
+                    <i class="fas fa-info-circle mr-1"></i> View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Project 2 -->
+          <div class="project-card">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl">
+              <div class="project-image h-64 bg-gray-700 flex items-center justify-center relative">
+                <img src="/api/placeholder/600/300" alt="Question Bank" class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-800 opacity-70"></div>
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-3">My Question Bank</h3>
+                <p class="text-gray-300 mb-4">
+                  Led the development of a microservice enabling instructors to create, validate, and manage questions
+                </p>
+                <div class="flex flex-wrap gap-2 mb-6">
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">Java</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">MongoDB</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">AWS Lambda</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">React</span>
+                </div>
+                <div class="mt-4">
+                  <a href="#" class="inline-block bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded-full">
+                    <i class="fas fa-info-circle mr-1"></i> View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Project 3 -->
+          <div class="project-card">
+            <div class="bg-gray-800 rounded-lg overflow-hidden shadow-xl">
+              <div class="project-image h-64 bg-gray-700 flex items-center justify-center relative">
+                <img src="/api/placeholder/600/300" alt="AWS Infrastructure" class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-gradient-to-b from-transparent to-gray-800 opacity-70"></div>
+              </div>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-3">AWS Cloud Infrastructure</h3>
+                <p class="text-gray-300 mb-4">
+                  Designed and implemented cloud infrastructure solutions for microservices-based applications
+                </p>
+                <div class="flex flex-wrap gap-2 mb-6">
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">AWS</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">Docker</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">Kubernetes</span>
+                  <span class="bg-blue-900 text-blue-200 py-1 px-3 rounded-full text-xs">CI/CD</span>
+                </div>
+                <div class="mt-4">
+                  <a href="#" class="inline-block bg-blue-700 hover:bg-blue-800 text-white py-2 px-4 rounded-full">
+                    <i class="fas fa-info-circle mr-1"></i> View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Carousel Navigation -->
+        <button
+          class="carousel-nav prev absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-6 bg-white text-gray-900 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button
+          class="carousel-nav next absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-6 bg-white text-gray-900 rounded-full w-12 h-12 flex items-center justify-center shadow-lg">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+  
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators flex justify-center mt-8 gap-2">
+          <div class="carousel-dot active w-3 h-3 bg-white rounded-full"></div>
+          <div class="carousel-dot w-3 h-3 bg-gray-500 rounded-full"></div>
+          <div class="carousel-dot w-3 h-3 bg-gray-500 rounded-full"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section (placeholder) -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About section will go here</h2>
+    </div>
+  </section>
+
+  <div class="pagination">
+    <div class="page-dot active" data-section="home"></div>
+    <div class="page-dot" data-section="experience"></div>
+    <div class="page-dot" data-section="skills"></div>
+    <div class="page-dot" data-section="projects"></div>
+    <div class="page-dot" data-section="about"></div>
+  </div>
+
+  <div class="email-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+      <polyline points="22,6 12,13 2,6"></polyline>
+    </svg>
+  </div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
