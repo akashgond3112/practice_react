@@ -20,3 +20,4 @@ jobs:
         publish_dir: ./portfolio
         keep_files: false
         cname: ''
+        files: main.html
